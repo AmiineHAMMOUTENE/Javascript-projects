@@ -1,0 +1,79 @@
+/* Google Font */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #121212;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0;
+}
+
+/* Outer Box */
+#outside {
+    background: #1E1E1E;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+/* Calculator Heading */
+#heading {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #FFD700;
+}
+
+/* Display Screen */
+.screen {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* Result */
+#val, #res {
+    color: white;
+    min-height: 30px;
+}
+
+/* Buttons */
+button {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    background-color: #252525;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+/* Hover Effect */
+button:hover {
+    background-color: #3a3a3a;
+}
+
+/* Operator Buttons */
+.operator {
+    background-color: #FF9500;
+}
+
+.operator:hover {
+    background-color: #d47b00;
+}
+
+
